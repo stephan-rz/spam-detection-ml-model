@@ -49,6 +49,8 @@ This repository contains a machine learning model for detecting spam messages. T
     ```bash
     docker run -p 3005:3005 spam-detection-model
     ```
+    The server will be running at `http://localhost:3005`.
+
 ## Usage
 
 ### Running the FastAPI Server
