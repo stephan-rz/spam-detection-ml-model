@@ -16,28 +16,29 @@ This repository contains a spam detection model built using scikit-learn and Fas
 
 ```bash
 git clone https://github.com/yourusername/spam-detection-model.git
-cd spam-detection-model
+cd spam-detection-model ```
+```
+2. Create a virtual environment and activate it
 
-
-Create a virtual environment and activate it
-
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-
-Install the required packages
-
+```
+3. Install the required packages
+```bash
 pip install -r requirements.txt
+```
 
-Training the Model
+## Training the Model
 To train the model, use the spam_model.ipynb Jupyter notebook. You can run the notebook locally or use a Jupyter notebook service like Google Colab.
 
-Testing the Model
+## Testing the Model
 To test the model, run the testing.py script:
 
-This script will load the model and vectorizer, vectorize the test messages from test.csv, make predictions, and save the results to test_spam_results.csv.
+```bash
+python testing.py
+```
 
-🌐 Setting Up the API
-1. Create a new file named api.py with the following content:
-
+# License
+This project is licensed under the MIT License.
 
