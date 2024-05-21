@@ -174,6 +174,9 @@ print(f"The message: '{message}' is classified as '{predicted_label}'")
 
 ## Contributors
 
+- **Student Name - D.S.C. Wijesuriya | Reg Number -  IT21155802**
+- **Student Name - W.N. Dilsara | Reg Number -  IT21182600**
+
 <a href="https://github.com/stephan-rz/spam-detection-ml-model/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=stephan-rz/spam-detection-ml-model" />
 </a>
