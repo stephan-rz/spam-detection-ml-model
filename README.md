@@ -9,7 +9,7 @@ This repository contains a machine learning model for detecting spam messages. T
   - [Installation](#installation)
     - [Clone the Repository](#clone-the-repository)
     - [Common Method](#common-method)
-    - [Docker Method](#docker-method)
+    - [Docker Method (Recommend)](#docker-method-recommend)
   - [Usage](#usage)
     - [Running the FastAPI Server](#running-the-fastapi-server)
     - [Example Request](#example-request)
@@ -39,7 +39,7 @@ This repository contains a machine learning model for detecting spam messages. T
     ```bash
     pip install -r requirements.txt
     ```
-### Docker Method
+### Docker Method (Recommend)
 1. Build the Docker image:
     ```bash
     docker build -t spam-detection-model .
