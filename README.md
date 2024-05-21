@@ -12,11 +12,11 @@ This repository contains a spam detection model built using scikit-learn and Fas
 
 ## Setup
 
-1. Clone the repository:
+1. Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/spam-detection-model.git
-cd spam-detection-model ```
+cd spam-detection-model
 ```
 2. Create a virtual environment and activate it
 
