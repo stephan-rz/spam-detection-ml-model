@@ -1,5 +1,5 @@
 fastapi==0.111.0
-hypercorn==0.14.4
+hypercorn==0.16.0
 joblib==1.4.2
 pydantic==2.7.1
 uvicorn==0.29.0
