@@ -39,10 +39,8 @@ async def classify_message(message: Message):
             return  True
         else:
             return False
-            
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-
 
 # Run the server
 if __name__ == "__main__":
