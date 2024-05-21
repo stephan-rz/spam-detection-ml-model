@@ -4,6 +4,6 @@
       "builder": "NIXPACKS"
     },
     "deploy": {
-      "startCommand": "uvicorn server:app --port 0"
+      "startCommand": "uvicorn server:app"
     }
   }

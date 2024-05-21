@@ -29,16 +29,16 @@ This repository contains a machine learning model for detecting spam messages. T
     ```
 ### Common Method
 
-1. Create a virtual environment and activate it:
-    ```bash
-    python -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
-    ```
 
-2. Install the required packages:
+1. Install the required packages:
     ```bash
     pip install -r requirements.txt
     ```
+2. Run the app:
+    ```bash
+    uvicorn server:app --reload
+    ```
+
 ### Docker Method (Recommend)
 1. Build the Docker image:
     ```bash
